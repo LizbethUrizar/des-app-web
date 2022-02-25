@@ -6,6 +6,18 @@
 
 body{
     font-family:'Open Sans';
+    margin: 0;
+    padding: 0;
+    background: #333;
+}
+h1{
+    font-size: 70px;
+    color: #fff;
+    text-align: center;
+}
+.colecciones {
+    width: 100%;
+    margin:auto;
 }
 
 .contenedor{
@@ -114,3 +126,4 @@ header .textos-header {
     margin-right: 5px;
 
 }
+
