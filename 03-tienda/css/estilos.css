@@ -21,17 +21,22 @@ h2{
     text-align: center;
 }
 .colecciones {
-    width: 100%;
+    width: 50%;
     margin:auto;
 }
 img{
-    width: 100%;
+    width: 50%;
 }
 .coleccion{
     margin: 5px;
 }
 .colecciones .contenedor{
     display: grid;
+}
+@media(min-width:520px){
+    .colecciones .contenedor {
+        grid-template-columns: repeat(2,25%);
+    }
 }
 
 .contenedor{
