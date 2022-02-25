@@ -139,3 +139,16 @@ header .textos-header {
     object-fit: cover;
     display: block;
 }
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    /* transform: scale (0); */
+    transform: scale(0);
+    background: hsla(273, 91%,27%,0.7%);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
