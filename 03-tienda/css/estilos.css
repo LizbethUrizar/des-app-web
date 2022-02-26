@@ -151,7 +151,7 @@ header .textos-header {
     justify-content: space-evenly;
 }
 
-.cards .cards{
+.cards .card{
     background: #4d0686;
     display: flex;
     width: 46%;
