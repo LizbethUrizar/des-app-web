@@ -168,7 +168,7 @@ header .textos-header {
     border: 3px solid #fff;
     display: block;
 }
-.cards .card >.contenido-textos{
+.cards .card >.contenido-textos-card{
     width: 60%;
     color: #fff;
 }
