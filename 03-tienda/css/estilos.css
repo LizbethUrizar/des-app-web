@@ -27,13 +27,13 @@ div.coleccion{
     float: left;
     width: 350px;
 }
-div.coleccion imgs{
+div.coleccion img{
     width: 100%;
     height: auto;
 }
 div.coleccion:hover{
-    border: 1px solid lightcoral
-    transform: rotate(-3deg)
+    border: 1px solid lightcoral;
+    transform: rotate(-3deg);
 }
 div.pie{
     text-align: center;
@@ -45,9 +45,7 @@ div.pie{
     padding: 60px 0;
     width: 90%;
     max-width: 1000px;
-    margin:center
-    
-    ;
+    margin:center;
     overflow: hidden;
 }
 
