@@ -1,23 +1,26 @@
-¨{
-    h2{
-        
-    }
-    div.coleccion{
-        margin: 10px 20px;
-        box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba (0, 0, 0, 0.19);
-        float: left;
-        width: 300px;
-    }
-    div.coleccion img{
-        width: 80%;
-        height: auto;
-    }
-    div.coleccion:hover{
-        border: 1px solid lightcoral;
-        transform: rotate(-3deg);
-    }
-    div.pie{
-        text-align: center;
-        text-shadow: 2px 2px 5px purple;
-        padding: 10px;
+h2{
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+
 }
+div.Info1{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba (0, 0, 0, 0.19);
+    float: left;
+    width: 300px;
+}
+div.Info1 img{
+    width: 80%;
+    height: auto;
+}
+div.Info1:hover{
+    border: 1px solid lightcoral;
+    transform: rotate(-3deg);
+}
+div.pie{
+    text-align: center;
+    text-shadow: 2px 2px 5px purple;
+    padding: 10px;
+}
+    
