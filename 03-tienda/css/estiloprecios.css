@@ -4,17 +4,17 @@ h2{
     text-align: center;
 
 }
-div.Info1{
-    margin: 10px 20px;
+div.Info{
+    margin: center;
     box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba (0, 0, 0, 0.19);
     float: left;
-    width: 300px;
+    width: 350px;
 }
-div.Info1 img{
-    width: 80%;
+div.Info img{
+    width: 100%;
     height: auto;
 }
-div.Info1:hover{
+div.Info:hover{
     border: 1px solid lightcoral;
     transform: rotate(-3deg);
 }
