@@ -20,24 +20,14 @@ h2{
     color: #fff;
     text-align: center;
 }
-.colecciones {
-    width: 50%;
-    margin:auto;
+
+div.coleccion{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 rgba (0, 0, 0, 0.19);
+    float: left;
+    width: 350px;
 }
-img{
-    width: 50%;
-}
-.coleccion{
-    margin: 5px;
-}
-.colecciones .contenedor{
-    display: grid;
-}
-@media(min-width:520px){
-    .colecciones .contenedor {
-        grid-template-columns: repeat(2,25%);
-    }
-}
+
 
 .contenedor{
     padding: 60px 0;
