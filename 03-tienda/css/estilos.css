@@ -1,6 +1,6 @@
 *¨{
-    margin:0;
-    padding:0;
+    margin: center;
+    padding: center;
     box-sizing: border-box;
 }
 
@@ -23,9 +23,9 @@ h2{
 
 div.coleccion{
     margin: 10px 20px;
-    box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 rgba (0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba (0, 0, 0, 0.19);
     float: left;
-    width: 350px;
+    width: 300px;
 }
 div.coleccion img{
     width: 80%;
