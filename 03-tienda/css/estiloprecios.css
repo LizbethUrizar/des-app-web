@@ -17,10 +17,10 @@ div.Info{
 }
 div.Info img{
     width: 40%;
-    height: 40%;
+    height: auto;
 }
 div.Info:hover{
-    border: 1px solid lightcoral;
+    border: 1px solid #fff;
     transform: rotate(-3deg);
 }
 div.pie{
