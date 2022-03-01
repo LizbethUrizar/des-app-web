@@ -16,7 +16,7 @@ div.Info{
     width: 350px;
 }
 div.Info img{
-    width: 100%;
+    width: 40%;
     height: auto;
 }
 div.Info:hover{
