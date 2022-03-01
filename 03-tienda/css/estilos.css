@@ -32,11 +32,11 @@ div.coleccion{
 }
 div.coleccion img{
     width: 100%;
-    height: auto;
+    height: center;
 }
 div.coleccion:hover{
     border: 1px solid lightcoral;
-    transform: rotate(-3deg);
+    transform: scale(3 dseg);
 }
 div.pie{
     text-align: center;
