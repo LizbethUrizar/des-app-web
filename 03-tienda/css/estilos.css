@@ -14,10 +14,7 @@ body{
     padding: 0;
     background: #fff;
 }
-</style>
-body{
-    display: inline;
-}
+
 h1{
     font-size: 50px;
     color: #fff;
@@ -29,12 +26,14 @@ h2{
     text-align: center;
 }
 div.coleccion{
+    display: inline;
     margin: 10px 20px;
     box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba (0, 0, 0, 0.19);
     float: left;
     width: 300px;
 }
 div.coleccion img{
+    display: inline;
     width: 100%;
     height: center;
 }
