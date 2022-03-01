@@ -4,10 +4,6 @@ h2{
     text-align: center;
 
 }
-img {
-    display: block;
-    margin: auto;
-}
 div.Info{
     margin: center;
     box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba (0, 0, 0, 0.19);
@@ -20,7 +16,7 @@ div.Info img{
 }
 div.Info:hover{
     border: 1px solid #fff;
-    transform: rotate(-3deg);
+    transform: scale(-3dseg);
 }
 div.pie{
     text-align: auto;
