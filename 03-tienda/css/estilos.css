@@ -25,7 +25,7 @@ h2{
   }
   
   .columna {
-    float: left;
+    float: none;
     width: 50%;
     padding-right: 5px;
   }
@@ -138,7 +138,7 @@ nav > a:hover {
     background: #4d0686;
     display: flex;
     width: 46%;
-    height: 100px;
+    height: 200px;
     align-items: center;
     justify-content: space-evenly;
     border-radius: 5px;
