@@ -35,9 +35,9 @@ h2{
     clear: both;
     display: table;
   }
-  imgs{
+  img{
       /*para que sea responsiva*/
-      width: 50%;
+      width: 100%;
   }
 
 .titulo{
