@@ -46,6 +46,28 @@
             <!--incluir CSS-->
                 <link rel="stylesheet" href="css/estilos.css">
             </head>
+            <style>
+                * {
+                    box-sizing: border-box;
+                }
+        
+                .columna {
+                    float: left;
+                    width: 33%;
+                    padding-right: 5px;
+                }
+        
+                .fila::after {
+                    content: "";
+                    clear: both;
+                    display: table;
+                }
+        
+                img {
+                    /* Para que sea responsiva */
+                    width: 100%;
+                }
+            </style>
             <body>
                 <article style="display:inline;"> 
                 <section class="Coleccion">
