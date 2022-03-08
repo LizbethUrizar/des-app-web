@@ -24,8 +24,8 @@ h2{
     box-sizing: border-box;
   }
   
-  .columna {
-    float: center;
+  img.columna {
+    float: 50%;
     width: 50%;
     padding-right: 5px;
   }
