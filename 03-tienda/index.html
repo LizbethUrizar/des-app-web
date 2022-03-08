@@ -45,56 +45,63 @@
                 <title>Colecciones</title>
             <!--incluir CSS-->
                 <link rel="stylesheet" href="css/estilos.css">
+                <style>
+                    * {
+                        box-sizing: border-box;
+                    }
+            
+                    .columna {
+                        float: left;
+                        width: 33%;
+                        padding-right: 5px;
+                    }
+            
+                    .fila::after {
+                        content: "";
+                        clear: both;
+                        display: table;
+                    }
+            
+                    img {
+                        /* Para que sea responsiva */
+                        width: 100%;
+                    }
+                </style>
             </head>
             <body>
                 <article style="display:inline;"> 
                 <section class="Coleccion">
                 <h2 class="titulo">Colecciones</h2>
-                <div class="coleccion">
-                <div class=" foto ">
+                <div class="fila">
+                <div class=" columna ">
                     <a href="Precio1.html"> <img src="imgs/BolsaLuxuryNegro.png" width="250" height="250" alt=""></a>
-                </div>
-                <div class="pie">
-                    <p>Bolsa Luxury Negro</p>
                 </div>
                 </div>
                 <div class="coleccion">
                 <div class=" foto ">
                     <a href="Precio2.html"><img src="imgs/BolsoLuxurySquareGris.png" width="250" height="250" alt=""></a>
                 </div>
-                <div class="pie">
-                    <p>Bolsa Luxury Square Gris</p>
-                </div>
                 </div>
                 <div class="coleccion">
                 <div class=" foto ">
                     <a href="Precio4.html"><img src="imgs/BolsoRíoNegro.png" width="250" height="250" alt=""></a>
                 </div>
-                <div class="pie">
-                    <p>Bolsa Rio Negro</p>
-                </div>
                 </div>
                 <div class="coleccion">
                 <div class=" foto ">
                     <a href="Precio3.html"><img src="imgs/CrossbodyBagNegro.jpg" width="250" height="250" alt=""></a>
-                <div class="pie">
-                    <p>Cross Body Bag Negro</p>
                 </div>  
                 </div>
                 <div class="coleccion">
                     <div class=" foto ">
                         <a href="Precio5.html"><img src="imgs/MiniCrossbodyNegro.jpg" width="250" height="250" alt=""></a>
-                    <div class="pie">
-                        <p>Mini Crossbody Negro</p>
                 </div>  
                 </div>
                 <div class="coleccion">
                     <div class=" foto ">
-                        <a href="Precio6.html"><img src="imgs/SquareBagNegro.jpg" width="250" height="250" alt=""></a>
-                    <div class="pie">
-                        <p>Square Bag Negro</p>
-                    </div>  
+                        <a href="Precio6.html"><img src="imgs/SquareBagNegro.jpg" width="250" height="250" alt=""></a> 
                     </div>
+                </div>
             </body>
             </section> 
 
