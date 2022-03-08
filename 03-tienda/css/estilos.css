@@ -1,12 +1,12 @@
 *¨{
-    margin: auto;
-    padding: 5px;
+    margin: center;
+    padding: 0;
     box-sizing: border-box;
 }
 body{
     font-family:'Open Sans';
-    margin: auto;
-    padding: 5px ;
+    margin: center;
+    padding: 0 ;
     background: #fff;
 }
 
