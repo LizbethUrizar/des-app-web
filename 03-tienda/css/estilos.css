@@ -39,13 +39,6 @@ h2{
       /*para que sea responsiva*/
       width: 100%;
   }
-.contenedor{
-    padding: 60px 0;
-    width: 90%;
-    max-width: 1000px;
-    margin:center;
-    overflow: hidden;
-}
 
 .titulo{
     color:#642a73;
