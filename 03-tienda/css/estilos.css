@@ -36,14 +36,16 @@ h2{
     clear: both;
     display: table;
   }
-  imgs{
+  img{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1em;
+
+
+
       /*para que sea responsiva*/
       width: 100%;
       height: auto;
-
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      grid-gap: 1em;
   }
 
 
