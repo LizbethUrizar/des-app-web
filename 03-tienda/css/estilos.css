@@ -36,7 +36,7 @@ h2{
     clear: both;
     display: table;
   }
-  img{
+  imgs{
       /*para que sea responsiva*/
       width: 100%;
       height: auto;
