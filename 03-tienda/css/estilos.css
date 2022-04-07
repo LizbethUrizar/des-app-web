@@ -39,12 +39,7 @@ h2{
   img{
 
       /*para que sea responsiva*/
-      margin: 1rem auto;
-
       width: 100%;
-
-      max-width: 960px;
-      column-count: 3;
   }
 
 
