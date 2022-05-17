@@ -26,7 +26,7 @@ h2{
 
   
   .columna {
-    float: 50%;
+    float: left;
     width: 50%;
     padding-right: 5px;
   }
